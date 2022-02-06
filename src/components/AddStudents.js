@@ -9,14 +9,12 @@ import * as yup from'yup'
 
 function AddStudents(props) {
 
-    // let context = useContext(StudentContext)
 
     let navigate = useNavigate();
    
     
 
 
-    //using axios
     let handleSubmit = (values)=>{
 
         let a=values.name;
